@@ -39,7 +39,7 @@ There were no missing values in our 'senitment' column.
 We also removed the entries that were labeled 'I can't tell' for their sentiment.
 
 Final distribution of target ('sentiment') labels:
-![Tweets by Sentiment]()
+![Tweets by Sentiment](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/Sentiment%20Distribution.png)
 The overwhelming majority of tweets have no emotion as their label.  By randomly assigning 'No Emotion' to all the tweets, we would be correct 60% of the time.
 
 ### Train Test Split and Baseline Model
@@ -52,9 +52,9 @@ For each natural language processing step, we evaluated a new model to see if th
 ### Removing Punctuation and Stopwords
 
 By removing punctuation and stopwords, we are left with the words in the tweet that hold more semantic value.  For example, the Top 20 words in the tweets before removing stopwords were:
-![Top 20 with Stopwords]()
+![Top 20 with Stopwords](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/Top20withstopwords.png)
 None of these words would tell us much about the sentiment of the tweet.  However, once those stopwords are removed, our Top 20 looks like this:
-![Top 20 without Stopwords]()
+![Top 20 without Stopwords](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/Top20withoutstopwords.png)
 These words are more likely to have semantic meaning and influence our target('sentiment').
 
 Our model without stopwords had a score of 60.8%, an increase, but not a substantial one.
@@ -92,6 +92,6 @@ Our model is currently not predicting that any tweets are negative.  This is mos
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook]() or review my [presentation]().
+See the full analysis in the [Jupyter Notebook](https://github.com/elizabeth524/Phase-4-Project/blob/main/SXSW_Data.ipynb) or review my [presentation]().
 
 For additional information, contact Elizabeth Webster at [eaw524@gmail.com](eaw524@gmail.com)
