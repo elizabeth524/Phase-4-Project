@@ -39,7 +39,7 @@ There were no missing values in our 'senitment' column.
 We also removed the entries that were labeled 'I can't tell' for their sentiment.
 
 Final distribution of target ('sentiment') labels:
-![Tweets by Sentiment](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/SentimentOfTweets.jpg)
+![Tweets by Sentiment](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/SentimentofTweets.jpg)
 The overwhelming majority of tweets have no emotion as their label.  By randomly assigning 'No Emotion' to all the tweets, we would be correct 60% of the time.
 
 ### Train Test Split and Baseline Model
@@ -80,6 +80,7 @@ Test: 64%
 
 We also created a confusion matrix to evaluate how well our model is performing:
 ![Confusion Matrix](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/ConfusionMatrix.jpg)
+
 Our model is currently not predicting that any tweets are negative.  This is most likely because there were relatively so few negative tweets in our training and test sets.  With so few tweets, our model could not accurately identify them.
 
 ## Text Patterns
@@ -87,9 +88,11 @@ Our model is currently not predicting that any tweets are negative.  This is mos
 Before moving on to my recommendations, I thought it would be interesting to create Word Clouds for positive and negative tweets.
 
 Positive Word Cloud:
+
 ![Positive Word Cloud](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/PositiveWordCloud.jpg)
 
 Negative Word Cloud:
+
 ![Negative Word Cloud](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/NegativeWordCloud.jpg)
 
 Many of the highest recurring words in both the positive and negative categories are the same: 'app', 'store', 'new', 'launch', 'line'.  This could be why our model is not performing at a level that we would prefer.
