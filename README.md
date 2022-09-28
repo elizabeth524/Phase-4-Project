@@ -1,4 +1,4 @@
-![SXSW Picture]()
+![SXSW Picture](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/SXSWLogo.jpg)
 
 # South by Southwest Tweet Content
 
@@ -87,10 +87,10 @@ Our model is currently not predicting that any tweets are negative.  This is mos
 Before moving on to my recommendations, I thought it would be interesting to create Word Clouds for positive and negative tweets.
 
 Positive Word Cloud:
-![Positive Word Cloud]()
+![Positive Word Cloud](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/PositiveWordCloud.png)
 
 Negative Word Cloud:
-![Negative Word Cloud]()
+![Negative Word Cloud](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/NegativeWordCloud.png)
 
 Many of the highest recurring words in both the positive and negative categories are the same: 'app', 'store', 'new', 'launch', 'line'.  This could be why our model is not performing at a level that we would prefer.
 
