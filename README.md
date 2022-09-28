@@ -39,7 +39,7 @@ There were no missing values in our 'senitment' column.
 We also removed the entries that were labeled 'I can't tell' for their sentiment.
 
 Final distribution of target ('sentiment') labels:
-![Tweets by Sentiment]()
+![Tweets by Sentiment](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/SentimentOfTweets.png)
 The overwhelming majority of tweets have no emotion as their label.  By randomly assigning 'No Emotion' to all the tweets, we would be correct 60% of the time.
 
 ### Train Test Split and Baseline Model
@@ -52,9 +52,9 @@ For each natural language processing step, we evaluated a new model to see if th
 ### Removing Punctuation and Stopwords
 
 By removing punctuation and stopwords, we are left with the words in the tweet that hold more semantic value.  For example, the Top 20 words in the tweets before removing stopwords were:
-![Top 20 with Stopwords]()
+![Top 20 with Stopwords](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/Top20withStopwords.jpg)
 None of these words would tell us much about the sentiment of the tweet.  However, once those stopwords are removed, our Top 20 looks like this:
-![Top 20 without Stopwords]()
+![Top 20 without Stopwords](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/Top20withoutStopwords.jpg)
 These words are more likely to have semantic meaning and influence our target('sentiment').
 
 Our model without stopwords had a score of 60.8%, an increase, but not a substantial one.
@@ -79,7 +79,7 @@ Training: 66.2%
 Test: 64%
 
 We also created a confusion matrix to evaluate how well our model is performing:
-![Confusion Matrix]()
+![Confusion Matrix](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/ConfusionMatrix.jpg)
 Our model is currently not predicting that any tweets are negative.  This is most likely because there were relatively so few negative tweets in our training and test sets.  With so few tweets, our model could not accurately identify them.
 
 ## Text Patterns
@@ -87,10 +87,10 @@ Our model is currently not predicting that any tweets are negative.  This is mos
 Before moving on to my recommendations, I thought it would be interesting to create Word Clouds for positive and negative tweets.
 
 Positive Word Cloud:
-![Positive Word Cloud](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/PositiveWordCloud.png)
+![Positive Word Cloud](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/PositiveWordCloud.jpg)
 
 Negative Word Cloud:
-![Negative Word Cloud](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/NegativeWordCloud.png)
+![Negative Word Cloud](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/NegativeWordCloud.jpg)
 
 Many of the highest recurring words in both the positive and negative categories are the same: 'app', 'store', 'new', 'launch', 'line'.  This could be why our model is not performing at a level that we would prefer.
 
