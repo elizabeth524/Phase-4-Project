@@ -40,6 +40,7 @@ We also removed the entries that were labeled 'I can't tell' for their sentiment
 
 Final distribution of target ('sentiment') labels:
 ![Tweets by Sentiment](https://github.com/elizabeth524/Phase-4-Project/blob/main/Images/SentimentofTweets.jpg)
+
 The overwhelming majority of tweets have no emotion as their label.  By randomly assigning 'No Emotion' to all the tweets, we would be correct 60% of the time.
 
 ### Train Test Split and Baseline Model
