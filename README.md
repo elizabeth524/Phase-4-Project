@@ -106,23 +106,29 @@ After our natural language processing, our model is only performing at 64% on ou
 
 Although we would prefer a model that performs at a higher level, we were constricted by the dataset.  The dataset our model trained on included a much higher level of 'No Emotion' (60.2%) tweets than 'Positive' or 'Negative' tweets combined (39.8%).
 
-My main recommendation to South by Southwest would be to collect more tweets that are identified as positive or negative.  By increasing the number of tweets our model trains on, it would have the information it needs to become more accurate.
+Working with the dataset that we currently have I would recommend using the wordclouds to compare commonly used words and pull out the ones that are specificly linked to positive or negative tweets.  SXSW can then flag tweets with these words to identify sentiment. 
+
+I believe that by collecting more tweets that are identified as positive or negative and increasing the number of tweets our model trains on, I would have the information needed to make more accurate recommendations.  
 
 Additionally, identifying and removing more SXSW specific stopwords could distill our tokens to words that have a semantic value.
-
-Finally, after completing these steps, I would recommend continuing to use the Multinomial Naive Bayes model with lemmatization to make predictions on future tweets.
 
 
 ## Next Steps
 
 **Exploring sentiments for specific products**
-Diving into which products are tweeted about favorably vs which ones are getting negative attention.  This could help SXSW know which vendors are worth inviting/promoting.
+Diving into which products are tweeted about favorably vs which ones are getting negative attention. As we have already noticed, Apple has many more favorable tweets than Google does. This could help SXSW know which vendors are worth inviting/promoting.
 
 **Part of speech tagging for accurate lemmatization.**
 Currently, our lemmatization is only functioning for nouns, not for verbs (ex: 'calling' is not lemmatized to 'call').  By instituting part of speech tagging to identify verbs and then lemmatize them could help our model's performance.
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](https://github.com/elizabeth524/Phase-4-Project/blob/main/SXSW_Data.ipynb) or review my [presentation]().
+See the full analysis in the [Jupyter Notebook](https://github.com/elizabeth524/Phase-4-Project/blob/main/SXSW_Data.ipynb) or review my [presentation](https://github.com/elizabeth524/Phase-4-Project/blob/main/SXSWTweetContentPresentation.pdf).
 
 For additional information, contact Elizabeth Webster at [eaw524@gmail.com](eaw524@gmail.com)
+
+├── Data
+├── Images
+├── README.md
+├── SXSWTweetContentPresentation.pdf
+└── SXSW_Data.ipynb
