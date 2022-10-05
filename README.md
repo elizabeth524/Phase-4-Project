@@ -127,8 +127,12 @@ See the full analysis in the [Jupyter Notebook](https://github.com/elizabeth524/
 
 For additional information, contact Elizabeth Webster at [eaw524@gmail.com](eaw524@gmail.com)
 
+## Repository Structure
+
+```
 ├── Data
 ├── Images
 ├── README.md
 ├── SXSWTweetContentPresentation.pdf
 └── SXSW_Data.ipynb
+```
